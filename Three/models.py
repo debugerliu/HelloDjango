@@ -10,3 +10,6 @@ class Grade(models.Model):
 class Student(models.Model):
     s_name = models.CharField(max_length=16)
     s_grade = models.ForeignKey(Grade, on_delete=models.CASCADE)
+
+
+
